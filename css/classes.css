@@ -1,0 +1,11 @@
+.content__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
