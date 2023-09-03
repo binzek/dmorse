@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="light" id="root">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +13,9 @@
     <!-- Styles -->
     <link rel="stylesheet" href="css/classes.css" />
     <link rel="stylesheet" href="css/globals.css" />
+
+    <!-- Scripts -->
+    <script src="js/switchTheme.js" defer></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,30 +39,13 @@
         <header class="content__header">
           <span class="header__logo">D'Morse</span>
 
-          <div class="header__theme-switch" data-active="light">
-            <button onclick="light()"><i class="bx bxs-sun"></i></button>
-            <button onclick="dark()"><i class="bx bxs-moon"></i></button>
-
-            <script>
-              function light() {
-                document
-                  .querySelector(".header__theme-switch")
-                  .setAttribute("data-active", "light");
-
-                document
-                  .querySelector("html")
-                  .setAttribute("data-theme", "light");
-              }
-              function dark() {
-                document
-                  .querySelector(".header__theme-switch")
-                  .setAttribute("data-active", "dark");
-
-                document
-                  .querySelector("html")
-                  .setAttribute("data-theme", "dark");
-              }
-            </script>
+          <div
+            class="header__theme-switch"
+            data-active="light"
+            id="theme-switch"
+          >
+            <button id="theme-switch--light"><i class="bx bxs-sun"></i></button>
+            <button id="theme-switch--dark"><i class="bx bxs-moon"></i></button>
           </div>
         </header>
       </section>
