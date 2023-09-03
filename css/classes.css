@@ -6,6 +6,7 @@
 .content__header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
@@ -27,7 +28,7 @@
   border: none;
   width: 50%;
   border-radius: 50%;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   cursor: pointer;
   transition: 300ms;
   background: none;
