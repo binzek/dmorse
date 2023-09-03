@@ -1,23 +1,4 @@
-@media (prefers-color-scheme: light) {
-  :root {
-    --background-color: #f3edf2;
-    --text-color: #000000;
-    --primary-color: #293d2b;
-    --secondary-color: #dccbdc;
-    --accent-color: #58845b;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #000000;
-    --text-color: #f3edf2;
-    --primary-color: #adc8af;
-    --secondary-color: #090609;
-    --accent-color: #293d2b;
-  }
-}
-
+:root,
 [data-theme="light"] {
   --background-color: #f3edf2;
   --text-color: #000000;

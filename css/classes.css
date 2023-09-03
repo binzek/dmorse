@@ -1,3 +1,8 @@
+.container {
+  width: 90%;
+  margin: 16px auto;
+}
+
 .content__header {
   display: flex;
   justify-content: space-between;
@@ -8,4 +13,33 @@
   text-transform: uppercase;
   font-size: 1.5rem;
   color: var(--primary-color);
+}
+
+.header__theme-switch {
+  border: 1px solid var(--primary-color);
+  border-radius: 999px;
+  display: flex;
+  width: 64px;
+  height: 32px;
+}
+
+.header__theme-switch button {
+  border: none;
+  width: 50%;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 300ms;
+  background: none;
+  color: var(--text-color);
+}
+
+.header__theme-switch[data-active="light"] button:nth-child(1) {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.header__theme-switch[data-active="dark"] button:nth-child(2) {
+  background-color: var(--primary-color);
+  color: var(--background-color);
 }

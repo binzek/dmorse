@@ -35,6 +35,32 @@
       <section class="content">
         <header class="content__header">
           <span class="header__logo">D'Morse</span>
+
+          <div class="header__theme-switch" data-active="light">
+            <button onclick="light()"><i class="bx bxs-sun"></i></button>
+            <button onclick="dark()"><i class="bx bxs-moon"></i></button>
+
+            <script>
+              function light() {
+                document
+                  .querySelector(".header__theme-switch")
+                  .setAttribute("data-active", "light");
+
+                document
+                  .querySelector("html")
+                  .setAttribute("data-theme", "light");
+              }
+              function dark() {
+                document
+                  .querySelector(".header__theme-switch")
+                  .setAttribute("data-active", "dark");
+
+                document
+                  .querySelector("html")
+                  .setAttribute("data-theme", "dark");
+              }
+            </script>
+          </div>
         </header>
       </section>
     </div>
