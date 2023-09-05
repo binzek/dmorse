@@ -105,3 +105,38 @@
 .hero__action__text span {
   color: var(--primary-color);
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer button {
+  background-color: var(--secondary-color);
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: var(--primary-color);
+}
+
+.footer__links {
+  display: flex;
+  gap: 16px;
+  font-size: 0.8rem;
+}
+
+footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  border-radius: 999px;
+  padding: 8px 16px;
+}
+
+footer a:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
