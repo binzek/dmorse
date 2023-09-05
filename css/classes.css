@@ -1,6 +1,9 @@
 .container {
   width: 90%;
   margin: 16px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .content__header {
@@ -136,6 +139,85 @@ footer a {
 }
 
 footer a:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.app {
+  background-color: var(--accent-color);
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.app__tab-switches {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__tab-switches button {
+  padding: 16px 48px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.app__tab-switches[data-current="encode"] button:nth-child(1) {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.app__tab-switches[data-current="decode"] button:nth-child(2) {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.app__boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.app__box {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+  padding: 16px;
+  border-radius: 8px;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.app__box textarea {
+  background: none;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  line-height: 160%;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--text-color);
+  resize: none;
+}
+
+.app__box button {
+  padding: 16px 40px;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.output-box button {
+  align-self: flex-end;
+  font-size: 0.8rem;
+  padding: 8px 16px;
   display: flex;
   align-items: center;
   gap: 8px;
