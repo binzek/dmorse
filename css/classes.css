@@ -233,3 +233,39 @@ footer a:nth-child(2) {
   align-items: center;
   gap: 8px;
 }
+
+@media (min-width: 768px) {
+  .content__hero {
+    flex-direction: row;
+  }
+
+  .hero__text {
+    width: 50%;
+  }
+
+  .hero__action {
+    width: 50%;
+  }
+
+  .hero__action__arrow {
+    background: none;
+    clip-path: none;
+  }
+
+  .hero__action__arrow div {
+    background-color: var(--primary-color);
+    width: 60%;
+  }
+
+  .app__tab-switches button {
+    padding: 16px 64px;
+  }
+
+  .app__boxes {
+    flex-direction: row;
+  }
+
+  .app__box {
+    width: 50%;
+  }
+}
