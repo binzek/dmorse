@@ -96,6 +96,17 @@
   aspect-ratio: 1/1;
   border-radius: 16px;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__action__arrow div {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  background-color: var(--secondary-color);
+  width: 40%;
+  aspect-ratio: 1/1;
+  transform: rotate(90deg);
 }
 
 .hero__action__text {
