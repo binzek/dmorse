@@ -16,6 +16,7 @@
 
     <!-- Scripts -->
     <script src="js/switchTheme.js" defer></script>
+    <script src="js/changeApp.js" defer></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -90,9 +91,9 @@
       </section>
 
       <section class="app">
-        <div class="app__tab-switches" data-current="encode">
-          <button>Encode</button>
-          <button>Decode</button>
+        <div class="app__tab-switches" id="tab-switches">
+          <button id="tab-switch--encode">Encode</button>
+          <button id="tab-switch--decode">Decode</button>
         </div>
 
         <div class="app__boxes">

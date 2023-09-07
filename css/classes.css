@@ -185,6 +185,7 @@ footer a:nth-child(2) {
   background-color: var(--secondary-color);
   color: var(--text-color);
   cursor: pointer;
+  transition: 300ms;
 }
 
 .app__tab-switches[data-current="encode"] button:nth-child(1) {
