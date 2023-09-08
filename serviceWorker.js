@@ -2,6 +2,7 @@ const CACHE_NAME = "dmorse-app-v1";
 const urlsToCache = [
   "/",
   "/index.html",
+  "/404.html",
   "/css/globals.css",
   "/css/classes.css",
   "/js/app.js",
