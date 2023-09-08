@@ -17,6 +17,7 @@
     <!-- Scripts -->
     <script src="js/switchTheme.js" defer></script>
     <script src="js/changeApp.js" defer></script>
+    <script src="js/encodeText.js" defer></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -98,17 +99,24 @@
 
         <div class="app__boxes" id="boxes--encode">
           <div class="app__box input-box">
-            <textarea rows="8" placeholder="Type your text here..."></textarea>
-            <button>Generate Morse Code</button>
+            <textarea
+              rows="8"
+              placeholder="Type your text here..."
+              id="input--text"
+            ></textarea>
+            <button id="button--encode">Generate Morse Code</button>
           </div>
 
           <div class="app__box output-box">
             <textarea
               rows="8"
-              disabled
+              readonly
               placeholder="Output will show here"
+              id="output--morse"
             ></textarea>
-            <button><i class="bx bxs-copy"></i>Copy Code</button>
+            <button id="button--copy-code">
+              <i class="bx bxs-copy"></i>Copy Code
+            </button>
           </div>
         </div>
 
