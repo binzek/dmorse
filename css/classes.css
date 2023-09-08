@@ -36,6 +36,9 @@
   transition: 300ms;
   background: none;
   color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__theme-switch[data-active="light"] button:nth-child(1) {
