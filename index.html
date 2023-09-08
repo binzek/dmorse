@@ -25,6 +25,7 @@
 
     <!-- Manifest -->
     <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#293d2b" />
 
     <!-- Styles -->
     <link rel="stylesheet" href="/css/classes.css" />
@@ -66,8 +67,20 @@
           <span class="header__logo">D'Morse</span>
 
           <div class="header__theme-switch" id="theme-switch">
-            <button id="theme-switch--light"><i class="bx bxs-sun"></i></button>
-            <button id="theme-switch--dark"><i class="bx bxs-moon"></i></button>
+            <button id="theme-switch--light">
+              <i
+                class="bx bxs-sun"
+                aria-label="Sun, light mode icon"
+                role="img"
+              ></i>
+            </button>
+            <button id="theme-switch--dark">
+              <i
+                class="bx bxs-moon"
+                aria-label="Moon, dark mode icon"
+                role="img"
+              ></i>
+            </button>
           </div>
         </header>
 
@@ -98,8 +111,8 @@
             </div>
 
             <div class="hero__action__text">
-              <h3>Start <span>encoding</span> & <span>decoding</span>!</h3>
-              <h3>Unleash your <span>creativity</span> now!</h3>
+              <h2>Start <span>encoding</span> & <span>decoding</span>!</h2>
+              <h2>Unleash your <span>creativity</span> now!</h2>
             </div>
           </div>
         </main>
@@ -114,7 +127,12 @@
           >
           <a href="https://wajid.me/" target="_blank">&copy; 2023 - Wajid</a>
           <a href="https://www.buymeacoffee.com/wajidnv" target="_blank"
-            ><i class="bx bxs-heart"></i><span>Support Creator</span></a
+            ><i
+              class="bx bxs-heart"
+              aria-label="Heart, support icon"
+              role="img"
+            ></i
+            ><span>Support Creator</span></a
           >
         </footer>
       </section>
@@ -143,7 +161,8 @@
               id="output--morse"
             ></textarea>
             <button id="button--copy-code">
-              <i class="bx bxs-copy"></i>Copy Code
+              <i class="bx bxs-copy" aria-label="Copy icon" role="img"></i>Copy
+              Code
             </button>
           </div>
         </div>
@@ -166,7 +185,8 @@
               id="output--text"
             ></textarea>
             <button id="button--copy-text">
-              <i class="bx bxs-copy"></i>Copy Text
+              <i class="bx bxs-copy" aria-label="Copy icon" role="img"></i>Copy
+              Text
             </button>
           </div>
         </div>

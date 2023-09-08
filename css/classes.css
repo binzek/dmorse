@@ -124,6 +124,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  font-size: 0.8rem;
 }
 
 .hero__action__text span {
