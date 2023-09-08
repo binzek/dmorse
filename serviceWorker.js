@@ -4,10 +4,11 @@ const urlsToCache = [
   "/index.html",
   "/css/globals.css",
   "/css/classes.css",
-  "/js/changeApp.js",
-  "/js/decodeMorse.js",
-  "/js/encodeText.js",
+  "/js/app.js",
   "/js/switchTheme.js",
+  "/js/changeApp.js",
+  "/js/encodeText.js",
+  "/js/decodeMorse.js",
 ];
 
 self.addEventListener("install", (event) => {
