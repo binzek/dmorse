@@ -18,6 +18,7 @@
     <script src="js/switchTheme.js" defer></script>
     <script src="js/changeApp.js" defer></script>
     <script src="js/encodeText.js" defer></script>
+    <script src="js/decodeMorse.js" defer></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -125,17 +126,21 @@
             <textarea
               rows="8"
               placeholder="Type your morse code here..."
+              id="input--morse"
             ></textarea>
-            <button>Decode Morse Code</button>
+            <button id="button--decode">Decode Morse Code</button>
           </div>
 
           <div class="app__box output-box">
             <textarea
               rows="8"
-              disabled
+              readonly
               placeholder="Output will show here"
+              id="output--text"
             ></textarea>
-            <button><i class="bx bxs-copy"></i>Copy Text</button>
+            <button id="button--copy-text">
+              <i class="bx bxs-copy"></i>Copy Text
+            </button>
           </div>
         </div>
       </section>
