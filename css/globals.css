@@ -1,5 +1,6 @@
 :root,
 [data-theme="light"] {
+  --a2hs-bg: rgba(0, 0, 0, 0.8);
   --background-color: #f3edf2;
   --text-color: #000000;
   --primary-color: #293d2b;
@@ -8,6 +9,7 @@
 }
 
 [data-theme="dark"] {
+  --a2hs-bg: rgba(243, 237, 242, 0.8);
   --background-color: #000000;
   --text-color: #f3edf2;
   --primary-color: #adc8af;
