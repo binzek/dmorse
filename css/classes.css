@@ -13,9 +13,10 @@
 }
 
 .header__logo {
+  text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: var(--primary-color);
 }
 
@@ -23,15 +24,15 @@
   border: 1px solid var(--primary-color);
   border-radius: 999px;
   display: flex;
-  width: 64px;
-  height: 32px;
+  width: 80px;
+  height: 40px;
 }
 
 .header__theme-switch button {
   border: none;
   width: 50%;
   border-radius: 50%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   transition: 300ms;
   background: none;
@@ -175,10 +176,12 @@ footer a:nth-child(3) {
 .app__tab-switches {
   display: flex;
   justify-content: space-between;
+  gap: 32px;
 }
 
 .app__tab-switches button {
-  padding: 16px 48px;
+  padding: 16px;
+  flex: 1;
   font-weight: 600;
   border-radius: 8px;
   border: none;
@@ -202,6 +205,11 @@ footer a:nth-child(3) {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  overflow-y: scroll;
+}
+
+.app__boxes::-webkit-scrollbar {
+  display: none;
 }
 
 .app__box {
@@ -291,7 +299,7 @@ footer a:nth-child(3) {
 
   .container {
     flex-direction: row;
-    height: 100vh;
+    max-height: 100vh;
     margin: 0;
     padding: 32px 0;
     margin: 0 auto;
