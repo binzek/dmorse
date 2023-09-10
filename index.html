@@ -37,6 +37,7 @@
     <script src="/js/encodeText.js" defer></script>
     <script src="/js/decodeMorse.js" defer></script>
     <script src="/js/app.js" defer></script>
+    <script src="/js/a2hsPrompt.js" defer></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -73,14 +74,14 @@
     <link rel="canonical" href="https://dmorse.wajid.me/" />
   </head>
   <body>
-    <div class="a2hs">
+    <div class="a2hs" id="a2hs-screen">
       <div class="a2hs__prompt">
         <p>You can use D'Morse offline as a normal device application.</p>
         <p>Do you want to install? (<50 kB)</p>
 
         <div class="a2hs__buttons">
-          <button>Cancel</button>
-          <button>Install</button>
+          <button id="a2hs-button--cancel">Cancel</button>
+          <button id="a2hs-button--install">Install</button>
         </div>
       </div>
     </div>
