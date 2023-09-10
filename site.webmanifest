@@ -1,7 +1,7 @@
 {
   "name": "D'Morse",
   "short_name": "D'Morse",
-  "start_url": "index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#58845b",
   "theme_color": "#293d2b",
