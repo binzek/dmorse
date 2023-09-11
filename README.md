@@ -22,7 +22,7 @@ D'Morse is a [Progressive Web Application](https://en.wikipedia.org/wiki/Progres
 - Codebase is highly **optimized for the best SEO and accessibility**.
 - Achieve **lightning-fast performance** with top scores in PageSpeed Insights.
 
-## Crafter Using
+## Crafted Using
 
 Plain **HTML**, **CSS**, and **JavaScript**.
 
