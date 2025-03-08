@@ -4,7 +4,7 @@ D'Morse is a [Progressive Web Application](https://en.wikipedia.org/wiki/Progres
 
 ## How to Use
 
-1. [**Visit the app**](https://dmorse.wajid.me/ "D'Morse App").
+1. [**Visit the app**](https://dmorse.live.binzek.com/).
 1. You can install it as a mobile app by clicking `Install` on the prompt that opens when opening the app on the web.
 1. Paste your plain text on the `Encode` pane or Morse code on the `Decode` pane.
 1. Copy the code or text and use it your messages or notes. 🎊
